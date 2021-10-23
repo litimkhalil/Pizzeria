@@ -12,7 +12,7 @@ body {
 /* Header */
 .bg-image {
   background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
-    url(/img/home.jpg);
+    url(img/home.jpg);
   min-height: 600px;
   background-position: center;
   background-size: cover;
@@ -105,7 +105,7 @@ a:hover .img {
   }
   .bg-image {
     background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
-      url(/img/home.jpg);
+      url(img/home.jpg);
     min-height: 100px;
     background-position: center;
     background-size: cover;
@@ -113,7 +113,7 @@ a:hover .img {
   }
   .bg-image {
     background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
-      url(/img/home.jpg);
+      url(img/home.jpg);
     min-height: 100px;
     background-position: center;
     background-size: cover;
