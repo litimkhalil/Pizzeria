@@ -1,0 +1,128 @@
+/* Text Color */
+.red {
+  margin-top: 10px;
+  color: rgb(226, 37, 4);
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
+    url(/img/home.jpg);
+  min-height: 600px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 40% 40%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-twitter-square {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+/* Hero Section */
+.hero h1 {
+  color: white;
+  font-size: 7rem;
+}
+
+/* Features */
+.img-feature img{
+  width: 80%;
+
+}
+
+
+/* Order Section */
+.bg-image-order {
+  background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
+    url(/img/Order.jpg);
+  min-height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.material-icons {
+  background-color: rgb(226, 37, 4);
+  border-radius: 100%;
+  color: white;
+  font-size: 6rem;
+  padding: 40px;
+}
+
+/* Menu Section */
+.img-menu img {
+  width: 50%;
+  transition: transform 500ms;
+}
+
+a:hover .img {
+  width: 300px;
+
+  
+}
+
+.img-menu img:hover {
+  transform: translateY(-10px);
+}
+
+/* Mobile App */
+.app {
+  background-color: rgb(226, 37, 4);
+  min-height: 200px;
+}
+
+.fa-google-play,
+.fa-app-store-ios {
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .material-icons {
+    background-color: rgb(226, 37, 4);
+    border-radius: 100%;
+    color: white;
+    font-size: 4rem;
+    padding: 20px;
+  }
+  .bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
+      url(/img/home.jpg);
+    min-height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 20% 20%;
+  }
+  .bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
+      url(/img/home.jpg);
+    min-height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 40% 40%;
+  }
+
+  .img-feature img{
+    width: 50%;
+  
+  }
+ 
+}
