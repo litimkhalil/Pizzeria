@@ -47,7 +47,7 @@ a:hover {
 /* Order Section */
 .bg-image-order {
   background: linear-gradient(rgba(0, 0, 0, 0.609), #2f2f2f9f),
-    url(/img/Order.jpg);
+    url(img/Order.jpg);
   min-height: 400px;
   background-position: center;
   background-size: cover;
